@@ -1,0 +1,273 @@
+html {
+  font-size: 24px;
+  font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  padding: 0px;
+  margin: 0px;
+}
+section {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  border-bottom: 10px dashed #000;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
+button {
+  background-color: #fbf9f1;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  color: #000;
+  text-transform: uppercase;
+  border: none;
+}
+button:hover {
+  background-color: #aad7d9;
+}
+button:active {
+  background-color: #92c7cf;
+}
+a {
+  color: #92c7cf;
+  text-decoration-line: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+a:hover {
+  color: #000;
+  text-transform: uppercase;
+}
+button > p {
+  padding: 10px;
+}
+.hero-container > img {
+  border-radius: 50%;
+}
+#nav {
+  background-color: #fbf9f1;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  color: #000;
+  padding: 10px;
+  margin: 0px;
+  border-bottom: none;
+}
+.nav-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 5px;
+  justify-items: center;
+  align-items: center;
+}
+#hero {
+  width: 100%;
+  background-color: #aad7d9;
+  padding: 10px;
+  color: #000;
+}
+.hero-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.hero-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: xxx-large;
+  color: #000;
+  text-shadow: 10px 10px #92c7cf;
+  text-transform: uppercase;
+}
+.section-heading {
+  text-shadow: 5px 5px #92c7cf;
+  font: 1.25rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+  text-transform: uppercase;
+  text-align: end;
+}
+.hero-container > img {
+  border: 10px dashed #000;
+}
+.hero-text {
+  text-align: justify;
+  color: #000;
+}
+#resume {
+  background-color: #fbf9f1;
+  padding: 10px;
+  color: #000;
+}
+hr {
+  width: 100%;
+  color: #000;
+  display: none;
+}
+h3 {
+  font-style: italic;
+}
+.resume-container {
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr;
+}
+.duties {
+  grid-column: span 2;
+  text-align: justify;
+}
+.time-period {
+  font-size: 1rem;
+  text-align: right;
+}
+.company-name {
+  color: #000;
+  size: 1.25rem;
+}
+.skills-heading {
+  color: #000;
+}
+.resume-skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: justify;
+}
+.resume-skills > p {
+  padding: 0px;
+}
+#project-showcase {
+  background-color: white;
+}
+.clickable-gallery-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.showcase-img {
+  height: 300px;
+  width: 100%;
+}
+.showcase-link {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.portfolio {
+  grid-area: 1 / 2;
+}
+.gallery-item {
+  display: flex;
+  flex-flow: column-reverse;
+  border: 5px #e5e1da solid;
+}
+#about-me {
+  background-color: #aad7d9;
+  padding: 10px;
+}
+.about-image {
+  float: left;
+  height: 275px;
+  width: 40%;
+}
+.about-container {
+  display: flex;
+  flex-flow: column;
+  color: #000;
+}
+#contact-me {
+  background-color: #fbf9f1;
+  color: #000;
+  padding: 10px;
+  border-bottom: none;
+}
+@media (max-width: 786px) {
+  .nav-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  button {
+    background-color: #fbf9f1;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: #000;
+    text-transform: uppercase;
+    border: none;
+  }
+  button:hover {
+    background-color: #aad7d9;
+  }
+  button:active {
+    background-color: #92c7cf;
+  }
+  html {
+    font-size: 16px;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  .hero-heading {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: xx-large;
+    color: #000;
+    text-shadow: 10px 10px #92c7cf;
+    text-transform: uppercase;
+  }
+.resume-container {
+    display: flex;
+    flex-direction: column;
+}
+.resume-container > * {
+    margin: 5px;
+}
+.company-name {
+    font-size: 1.15rem;
+}
+.time-period {
+    text-align: left;
+    font-size: 0.9rem;
+}
+.resume-skills {
+    display: flex;
+    flex-direction: column;
+}
+.resume-skills > p {
+    padding: 0px;
+    margin: 0px;
+}
+.showcase-img {
+    display: none;
+  }
+  .gallery-item {
+    display: flex;
+    flex-flow: column-reverse;
+    border: none;
+  }
+  .clickable-gallery-container {
+    padding-bottom: 15px;
+  }
+  .about-image {
+    float: none;
+    width: 100%;
+  }
+  .about-container > * {
+    margin:0px;
+  }
+  .about-container > ul {
+    margin-bottom: 10px;
+  }
+}
