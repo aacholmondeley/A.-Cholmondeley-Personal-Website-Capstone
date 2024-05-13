@@ -8,7 +8,6 @@ html {
 section {
   padding: 0px;
   margin: 0px;
-  width: 100%;
   border-bottom: 10px dashed #000;
 }
 body {
@@ -51,7 +50,6 @@ button > p {
 }
 #nav {
   background-color: #fbf9f1;
-  width: 100%;
   top: 0px;
   left: 0px;
   color: #000;
@@ -68,7 +66,6 @@ button > p {
   align-items: center;
 }
 #hero {
-  width: 100%;
   background-color: #aad7d9;
   padding: 10px;
   color: #000;
@@ -78,7 +75,6 @@ button > p {
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 .hero-heading {
   font-family: "Josefin Sans", sans-serif;
@@ -150,7 +146,6 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  width: 100%;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -179,6 +174,7 @@ h3 {
   float: left;
   height: 275px;
   width: 40%;
+  margin: 10px;
 }
 .about-container {
   display: flex;
@@ -190,6 +186,9 @@ h3 {
   color: #000;
   padding: 10px;
   border-bottom: none;
+}
+.about-container > * {
+  margin: 0;
 }
 @media (max-width: 786px) {
   .nav-container {
@@ -260,12 +259,17 @@ h3 {
   .clickable-gallery-container {
     padding-bottom: 15px;
   }
+  .about-container {
+    display: flex;
+    justify-content: left;
+  }
   .about-image {
     float: none;
     width: 100%;
+    margin: 0;
   }
   .about-container > * {
-    margin:0px;
+    margin: 0px;
   }
   .about-container > ul {
     margin-bottom: 10px;
