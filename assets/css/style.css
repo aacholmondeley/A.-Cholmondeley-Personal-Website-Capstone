@@ -100,7 +100,7 @@ button > p {
   color: #000;
 }
 #resume {
-  background-color: #fbf9f1;
+  background-color: #aad7d9;
   padding: 10px;
   color: #000;
 }
@@ -115,6 +115,7 @@ h3 {
 .resume-container {
   display: grid;
   grid-template-columns: 2.5fr 1.5fr;
+  background-color: #aad7d9;
 }
 .duties {
   grid-column: span 2;
