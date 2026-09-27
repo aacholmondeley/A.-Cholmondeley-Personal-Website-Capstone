@@ -167,7 +167,7 @@ h3 {
   border: 5px #e5e1da solid;
 }
 #about-me {
-  background-color: #aad7d9;
+  background-color: #fbf9f1;
   padding: 10px;
 }
 .about-image {
@@ -229,6 +229,7 @@ h3 {
 .resume-container {
     display: flex;
     flex-direction: column;
+    background-color: #aad7d9;
 }
 .resume-container > * {
     margin: 5px;
