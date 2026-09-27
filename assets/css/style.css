@@ -233,6 +233,8 @@ h3 {
 }
 .resume-container > * {
     margin: 5px;
+    background-color: #aad7d9;
+
 }
 .company-name {
     font-size: 1.15rem;
